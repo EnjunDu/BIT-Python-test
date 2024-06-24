@@ -1,0 +1,22 @@
+import turtle as op
+op.setup(1000,900)
+op.penup()
+op.fd(-100)
+op.right(90)
+op.fd(100)
+op.left(90)
+op.pendown()
+op.pensize(5)
+op.pencolor("black")
+op.fd(50)
+for i in range (8):
+    op.fd(76.60444)
+    op.left(40)
+op.fd(76.60444)
+for i in range (8):
+    op.fd(50)
+    op.left(80)
+    op.fd(50)
+    op.right(40)
+op.fd(50)
+op.done()

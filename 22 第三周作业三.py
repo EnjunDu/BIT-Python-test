@@ -1,0 +1,6 @@
+wtf = input()
+op=int(wtf)
+yp =int( op**3)
+str_yp = str(yp)
+width = max(20,len(str_yp))
+print(str_yp.center(width,'-'))
